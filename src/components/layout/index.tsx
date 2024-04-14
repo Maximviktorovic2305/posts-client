@@ -23,20 +23,24 @@ const Layout = () => {
     <>
       <Header />
       <Container>
-        <div className="flex-2 p-4">
+        <div className=" p-4">
           <Navbar />
           <div className="flex-2 p-4 my-6">
             <div className="flex-col flex gap-5">{!user && <Profile />}</div>
           </div>
         </div>
-          <div className="flex-1 p-4">
+        <div className="flex w-full pl-[3%]">
+          <div className="w-[70%]">
             <Outlet />
           </div>
 
-          <Counter />
-        {/* <div className="flex-2 p-4">
+          <div className="pl-[9%]">
+            <Counter />
+          </div>
+          {/* <div className="flex-2 p-4">
           <div className="flex-col flex gap-5">{!user && <Profile />}</div>
         </div> */}
+        </div>
       </Container>
     </>
   )

@@ -1,13 +1,13 @@
 .wrapper-count {
-  position: absolute;
-  right: -23%;
-  top: 19%;
-  z-index: 5;
-  width: 40vw;
+  /* position: absolute; */
+  /* right: -23%; */
+  /* top: 19%; */
+  /* z-index: 5; */
+  width: 4vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 16px;
+  justify-content: start;
+  gap: 20px;
 }
 
 .container-count {
@@ -20,7 +20,7 @@
   position: relative;
   font-size: 16px;
   border-radius: 0.5em;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
   box-shadow:
     -1px -1px 4px #aaa9a9a2,
     1px 1px 7px rgba(66, 249, 232, 0.671);

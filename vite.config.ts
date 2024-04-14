@@ -5,16 +5,16 @@ import { defineConfig } from "vitest/config"
 export default defineConfig({
   plugins: [react()],
   server: {
-    open: true,
+    port: 4450,
   },
   test: {
     globals: true,
     environment: "jsdom",
     setupFiles: "src/setupTests",
     mockReset: true,
-  },   
+  },
   build: {
-    outDir: 'build',   
-    sourcemap: true
-  },   
+    outDir: "build",
+    sourcemap: true,
+  },
 })
